@@ -1,29 +1,50 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 69px;
-  background-color: gray;
+  background-color: #fff;
   padding: 0 142px;
+  gap: 32px;
 }
 
-.logo {
+.my_profile {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.actions {
-  display: flex;
-  gap: 20px;
+  gap: 7px;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.cart {
+  position: relative;
+  height: 24px;
+}
+
+.point {
+  position: absolute;
+  top: -7px;
+  right: -10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+
+  background-color: #fb7181;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 15px;
+}
+
+.total_container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.total_price {
+  opacity: 50%;
 }
