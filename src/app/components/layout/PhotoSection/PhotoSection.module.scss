@@ -1,0 +1,36 @@
+.relative_container {
+  position: relative;
+  height: 954px;
+}
+
+.big_image {
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  font-weight: 700;
+  font-size: 64px;
+  top: 259px;
+  left: 101px;
+  color: white;
+}
+
+.three_images {
+  position: absolute;
+  bottom: 0;
+  left: 22%;
+}
+
+.image {
+  position: relative;
+}
+
+.image:nth-child(odd) {
+  z-index: 2;
+}
+
+.image:nth-child(2) {
+  margin: 0 -24px;
+  z-index: 1;
+}
