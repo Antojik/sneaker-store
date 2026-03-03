@@ -7,7 +7,7 @@ import Navigate from "./components/layout/Navigate/Navigate";
 
 const poppinsFont = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
